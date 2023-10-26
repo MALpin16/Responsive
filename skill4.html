@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="boxicons.min.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>Skill</title>
+</head>
+<body class="skill4">
+    <!-- head -->
+    <nav>
+        <div id="nav__content" class="transparent">
+            <div class="logo"><a href="#">MALVINO.</a></div>
+            <label for="check" class="checkbox">
+                <i class="ri-menu-line"></i>
+            </label>
+            <input type="checkbox" name="check" id="check">
+
+            <!-- menu -->
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a id="menu2" href="aboutme2.html">About Me</a></li>
+                <li>
+                  <a id="menu2" href="project3.html">Project</a>
+                  <ul class="sub__menu">
+                    <li><a class="sub1" href="project3.html#website">Web</a></li> 
+                </ul>
+                </li>
+                <li><a class="active" href="skill4.html">Skill</a></li>
+                <li><a href="contact5.html">Contact</a></li>
+              </ul>
+        </div>
+    </nav>
+        
+    <section id="skill">
+        <!-- content -->
+        <div class="content4">
+            <h3 class="my_skill">My Skill</h3>
+                <h3 class="title_mastered">MASTERED</h3>
+                <div class="mastered">
+                    <div class="icons2">
+                        <i id="html" class='bx bxl-html5' ></i>
+                        <h2 class="html" >HTML <p>In the past few days, I have started mastering HTML.</p></h2>
+                    </div>
+                    <div class="icons2">
+                        <i id="css" class='bx bxl-css3' ></i>
+                        <h2 class="css" >CSS <p>In the past few days, I have gained an understanding of CSS.</p></h2>
+                    </div>
+                </div>
+                
+                <h3 class="title_studied" >STUDIED</h3>
+                <div class="studied">
+                    <div class="icons3">
+                        <i id="js" class='bx bxl-javascript' ></i>
+                        <h2 class="js" >JAVASCRIPT <p>I am still learning to apply JavaScript in my projects.</p></h2>
+                    </div>
+                    <div class="icons3">
+                        <i id="java" class='bx bxl-java' ></i>
+                        <h2 class="js" >JAVA <p>Currently learning and trying out Java, especially at school.</p></h2>
+                    </div>
+                    <div class="icons3">
+                        <i id="py" class='bx bxl-python'></i>
+                        <h2 class="py" >PYTHON <p>I am still trying to learn Python, both at school and at home.</p></h2>
+                    </div>
+                </div>
+        </div>
+    
+
+    <!-- copyright -->
+    <center>
+        <div class="copy4">&copy2023 Kadek Malvino | Developer</div>
+    </center>  
+    </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var navbar = document.getElementById("nav__content");
+
+            window.addEventListener("scroll", function() {
+                if (window.scrollY > 50) {
+                    navbar.classList.remove("transparent");
+                    navbar.classList.add("solid");
+                } else {
+                    navbar.classList.remove("solid");
+                    navbar.classList.add("transparent");
+                }
+            });
+        });
+    </script>
+</body>
+</html>

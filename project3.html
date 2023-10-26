@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="boxicons.min.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>Project</title>
+</head>
+<body class="project3">
+
+    <!-- head -->
+    <nav>
+        <div id="nav__content" class="transparent">
+            <div class="logo"><a href="#">MALVINO.</a></div>
+            <label for="check" class="checkbox">
+                <i class="ri-menu-line"></i>
+            </label>
+            <input type="checkbox" name="check" id="check">
+
+            <!-- menu -->
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme2.html">About Me</a></li>
+                <li>
+                  <a class="active" href="project3.html">Project</a>          
+                  <ul class="sub__menu">
+                    <li><a class="sub1" href="project3.html#website">Web</a></li> 
+                </ul>
+                </li>
+                <li><a href="skill4.html">Skill</a></li>
+                <li><a href="contact5.html">Contact</a></li>
+              </ul>
+        </div>
+    </nav>
+
+        <!-- intro -->
+        <div class="intro">
+            <h1>DESIGN WEBSITE</h1>
+            <p>Website designing is the process of creating the appearance and user experience for a website. This involves selecting elements such as colors, images, layout, and fonts so that the website looks attractive and is easy to use. Apart from being a frontend developer, I have also created several websites. Here are some of the projects I have completed </p>
+        </div>
+    
+        <!-- website -->
+            <div id="website">
+                <div class="satu">
+                    <img class="gambar1" src="image/weblogin.png" alt="">
+                    <div class="text_satu">
+                    <h2>LOGIN FORM WEB</h2>
+                    <p>A website login form is a part of a website that provides an interface for users to enter their identification information, such as a username and password, to access a personal account or gain access to certain features. Login forms are a key element in the online authentication process and are widely used across various online platforms, including social media, online banking, email services, and more.</p>
+                    </div>
+                </div>
+                <div class="dua">
+                    <div class="text_dua">
+                    <h2>MY 1ST WEBSITE HOME</h2>
+                    <p>Is the first page or main page of a website. This is often the starting point where a user or visitor can get a general idea of the content and purpose of the site. The design of the main page is very important because it can influence a visitor's first impression of the site.</p>
+                    </div>
+                    <img class="gambar2" src="image/web2.png" alt="">
+                </div>
+                <div class="tiga">
+                    <img class="gambar3" src="image/webport.png" alt="">
+                    <div class="text_tiga">
+                    <h2>MY 2ND WEBSITE</h2>
+                    <p>Home Website is the first page or main page of a website. This is often the starting point where a user or visitor can get a general idea of the content and purpose of the site. The design of the main page is very important because it can influence a visitor's first impression of the site.</p>
+                    </div>
+                </div>
+                <div class="empat">
+                    <div class="text_empat">
+                    <h2>SIMPLE QUIZZ</h2>
+                    <p>A simple quiz is a knowledge evaluation tool that is often used to measure a person's understanding of a topic or subject. Typically, a simple quiz consists of a series of questions with answer choices, where participants must choose the correct answer.</p>
+                    </div>
+                    <img class="gambar4" src="image/quiz.png" alt="">
+                </div>
+            </div>
+
+    <!-- copyright -->
+    <center>
+        <div class="copy3">&copy2023 Kadek Malvino | Developer</div>
+    </center> 
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var navbar = document.getElementById("nav__content");
+
+            window.addEventListener("scroll", function() {
+                if (window.scrollY > 50) {
+                    navbar.classList.remove("transparent");
+                    navbar.classList.add("solid");
+                } else {
+                    navbar.classList.remove("solid");
+                    navbar.classList.add("transparent");
+                }
+            });
+        });
+    </script>
+</body>
+</html>

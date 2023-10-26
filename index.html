@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="Home" type="jpg" href="image/Fot3.jpg">
+    <link rel="stylesheet" href="style2.css" /> 
+    <title>Home</title>
+  </head>
+  <body class="home1">
+    <!-- logo -->
+    <nav>
+      <div id="nav__content" class="transparent">
+        <div class="logo"><a href="#">MALVINO.</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+         <input type="checkbox" name="check" id="check" />
+
+        <!-- menu -->
+        <ul class="menu">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="aboutme2.html">About Me</a></li>
+          <li>
+            <a href="project3.html">Project</a>   
+            <ul class="sub__menu">
+              <li><a class="sub1" href="project3.html#website">Web</a></li> 
+            </ul>
+          </li>
+          <li><a href="skill4.html">Skill</a></li>
+          <li><a href="contact5.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- content -->
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <div class="content_content">
+            <p class="subtitle">HELLO</p>
+                <h1 class="title">
+                  I'm Malvino <br>a <span id="element" ></span>
+                </h1>
+
+                <!-- Typed.js -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+                <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+                
+              </div>
+              <p class="description">
+                Welcome to my Portfolio Website. I'm Malvino, and I'm a Web Developer
+                who is just starting to learn about Programming. I'm also in the
+                learning stage of Creating and Designing Websites, Graphic Design
+                and much more...
+              </p>
+
+          <div class="action__btns">
+            <a href=""><button class="cv"><h1>Download CV</h1></button></a>
+          </div>
+        </div>
+
+        <!-- image -->
+        <div class="image">
+          <img src="image/fot2.jpg" alt="profile image" width="300" />
+        </div>
+
+        <div class="icon_container">
+          <div class="icons">
+            <a href="https://www.youtube.com/@malvinocraft2535" target="_blank"><i class="ri-youtube-fill"></i></a>
+          </div>
+          <div class="icons">
+            <a href="https://www.instagram.com/kadek_malvino/?hl=en" target="_blank"><i class="ri-instagram-line"></i></a>
+          </div>
+          <div class="icons">
+            <a href="https://wa.me/085337862843" target="_blank"><i class="ri-whatsapp-line"></i></a>
+          </div>
+          <div class="icons">
+            <a href="twitter.com"><i class="ri-twitter-fill"></i></a>
+          </div>
+          <div class="icons">
+            <a href="#"><i class="ri-linkedin-box-line"></i></a>
+          </div>
+          <div class="icons">
+            <a href="#"><i class="ri-github-fill"></i></a>
+        </div>
+        </div>
+      </div>    </section>
+    
+    <!-- copyright -->
+    <center>
+      <div class="copy">&copy2023 Kadek Malvino | Developer</div>
+    </center>
+
+     <!-- Setup and start animation! -->
+     <script>
+      var typed = new Typed('#element', {
+        strings: ['Web Developer', 'Frontend Developer', 'Web Desginer'],
+        typeSpeed: 70,
+        loop:true,
+      });
+      
+    </script>
+  </body>
+</html>

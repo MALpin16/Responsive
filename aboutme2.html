@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"  />
+    <link rel="stylesheet" href="style2.css">
+    <title>About Me</title>
+</head>
+<body class="aboutme2">
+    <!-- head -->
+    <nav id="nav_project">
+        <div id="nav__content" class="transparent">
+            <div class="logo"><a href="#">MALVINO.</a></div>
+            <label for="check" class="checkbox">
+                <i class="ri-menu-line"></i>
+            </label>
+            <input type="checkbox" name="check" id="check">
+
+            <!-- menu -->
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="aboutme2.html">About Me</a></li>
+                <li>
+                  <a href="project3.html">Project</a>          
+                    <ul class="sub__menu">
+                        <li><a class="sub1" href="project3.html#website">Web</a></li> 
+                    </ul>
+                </li>
+                <li><a href="skill4.html">Skill</a></li>
+                <li><a href="contact5.html">Contact</a></li>
+              </ul>
+        </div>
+    </nav> 
+
+        <!-- content -->
+        
+
+        <section class="section2">
+            <div class="background1"></div>
+            <div class="background2"></div>
+            <div class="section__container2">
+                <div class="content2">
+                <div class="title2">
+                    <h1>KADEK MALVINO</h1>
+                    <h2>BEGINER PROGRAMER / WEB DEVELOPER</h2>
+                </div>
+
+                        <!-- image -->
+                <div class="image2">
+                    <img id="myImage" src="image/Fot3.jpg" alt="a man with glasses">
+                </div>
+                    <!-- text -->
+                    <div class="text">  
+                        <p><span>I</span> am a beginner programmer and this is a page about me. I am the second child of 2 brothers who live at the address Br.Parekan Sibanggede. I am now studying at SMKN1 Denpasar. I was born in Denpasar, and I am currently 16 years old. I enjoy playing video games, playing music, coding, and sometimes reading books about finance. What I don't like is being in crowds for too long because I am a slightly introverted person.</p>
+                    </div> 
+
+                    <div class="hobi">
+                        <h3>Hobby</h3>
+                        <p>I have some Hobbies, some of them:
+                        <li>Playing Guitar</li>
+                        <li>Playing Game</li>
+                        <li>Watching Youtube</li>
+                        <li>Playing Motorbike</li>
+                        <li>Taking Pictures</li>
+                        <li>Do Some Coding</li>
+                        </p>
+                    </div>
+
+                    <div class="tujuan">
+                        <h3>Goals</h3>
+                        <p>I have some Goals, some of them:<br>
+                        1.I want to earn my first 10 million Indonesian Rupiah in 2025.<br>
+                        2.I plan to enroll at ITB (Institut Teknologi Bandung) for my higher education.<br>
+                        3.I want to learn about Invest
+                        <br>
+                        4.I want to own a boarding house so I can get passive income.
+                        </p>
+                    </div>     
+                </div>
+            </div>
+        </section>
+
+    <!-- copyright -->
+    <center>
+        <div class="copy2">&copy2023 Kadek Malvino | Developer</div>
+    </center> 
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var navbar = document.getElementById("nav__content");
+
+            window.addEventListener("scroll", function() {
+                if (window.scrollY > 50) {
+                    navbar.classList.remove("transparent");
+                    navbar.classList.add("solid");
+                } else {
+                    navbar.classList.remove("solid");
+                    navbar.classList.add("transparent");
+                }
+            });
+        });
+    </script>
+</body>
+</html>

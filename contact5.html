@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css">
+  <title>Contact</title>
+</head>
+<body class="home5">
+    <!-- head -->
+    <nav id="nav_contact">
+      <div id="nav__content" class="transparent">
+        <div class="logo"><a href="#">MALVINO.</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+
+        <!-- menu -->
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutme2.html">About Me</a></li>
+          <li>
+            <a href="project3.html">Project</a>
+            <ul class="sub__menu">
+              <li><a class="sub1" href="project3.html#website">Web</a></li> 
+            </ul>
+          </li>
+          <li><a href="skill4.html">Skill</a></li>
+          <li><a class="active" href="contact5.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- form -->
+    <div class="container">
+      <form class="contact-form">
+          <div class="form-group">
+              <label class="label" for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+              <label class="label" for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+              <label class="label" for="message">Message:</label>
+              <textarea id="message" name="message" rows="7" required></textarea>
+          </div>
+          <div class="form-group">
+              <button class="send" clatype="send">SEND</button>
+          </div>
+      </form>
+    </div>
+
+      <!-- MAP -->
+      <div class="map">
+          <h1 class="lokasi">LOCATION</h1>
+          <p class="work">MY WORK</p>
+
+          <div class="address">
+            <h1>Indonesia</h1>
+            <p>Bali.</p>
+            <p>Sibanggede.</p>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1020.19331093832!2d115.21590913218108!3d-8.5783615649914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1694579473575!5m2!1sid!2sid"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            width="600"
+            height="450">
+          </iframe><br>
+
+        <!-- social media -->
+      <details>
+        <summary class="summary">
+          <b class="title_icon">Please click to see my social media</b>
+        </summary>
+        <div class="wrapper2">
+          <div class="icon">
+            <i class="ri-youtube-fill"></i>
+            <a href="https://www.youtube.com/@malvinocraft2535" target="_blank">Malvino Craft</a>
+          </div>
+          <div class="icon">
+            <i class="ri-instagram-line"></i>
+            <a href="https://www.instagram.com/kadek_malvino/?hl=en" target="_blank">@kadek_malvino</a>
+          </div>
+          <div class="icon">
+            <i class="ri-whatsapp-line"></i>
+            <a href="https://wa.me/085337862843" target="_blank">+6285337862843</a>
+          </div>
+          <div class="icon">
+            <i class="ri-mail-line"></i>
+            <a href="#">Malvino980@gmail.com</a>
+          </div>
+          <div class="icon">
+            <i class="ri-linkedin-box-line"></i>
+            <a href="#">(coming soon!)</a>
+          </div>
+          <div class="icon">
+            <i class="ri-github-fill"></i>
+            <a href="#">(coming soon!)</a>
+          </div>
+        </div>
+      </div>
+      
+    <!-- copyright -->
+    <center>
+      <div class="copy5">&copy2023 Kadek Malvino | Developer</div>
+    </center>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          var navbar = document.getElementById("nav__content");
+
+          window.addEventListener("scroll", function() {
+              if (window.scrollY > 50) {
+                  navbar.classList.remove("transparent");
+                  navbar.classList.add("solid");
+              } else {
+                  navbar.classList.remove("solid");
+                  navbar.classList.add("transparent");
+              }
+          });
+      });
+  </script>
+  </body>
+</html>
